@@ -3,6 +3,8 @@
 
   Collect realtime anonymous feedback through a website.
 
+![](screenshots/empty.png)
+
 ## Example
 
 ```bash
