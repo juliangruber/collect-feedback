@@ -13,7 +13,7 @@ module.exports = http.createServer(function(req, res){
     req.pipe(concat(function(feedback){
       res.end('ok');
       console.log([
-        Date.now(),
+        new Date,
         JSON.stringify(feedback.toString())
       ].join('\t'));
     }));
