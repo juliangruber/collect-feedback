@@ -1,6 +1,6 @@
 {
   "name": "collect-feedback",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Collect realtime anonymous feedback",
   "repository": "juliangruber/collect-feedback",
   "license": "MIT",
@@ -8,6 +8,6 @@
     "concat-stream": "~1.4.6"
   },
   "bin": {
-    "collect-feedback": "bin/server.js"  
+    "collect-feedback": "bin/server.js"
   }
 }
