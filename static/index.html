@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Feedback</title>
+  </head>
+  <body>
+    <h1>What do you think?</h1>
+    <form>
+      <textarea placeholder="Feedback"></textarea>
+      <input type="submit">
+    </form>
+
+    <script>
+      var form = document.querySelector('form');
+      var textarea = form.querySelector('textarea');
+
+      form.addEventListener('submit', function(ev){
+        ev.preventDefault();
+        var feedback = textarea.value;
+        var req = new XMLHttpRequest;
+        req.open('POST', '/feedback', true);
+        req.onload = function(){
+          if (req.status != 200) return alert(req.statusText);
+          textarea.value = '';
+        };
+        req.send(feedback);
+      });
+    </script>
+  </body>
+</html>
