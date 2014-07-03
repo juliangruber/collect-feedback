@@ -3,6 +3,9 @@
 
   Collect realtime anonymous feedback through a website.
 
+  Useful for event hosts, speakers, teachers and more. Just hand out the address
+  to your server and everyone can submit as much feedback as they like.
+
 ![](screenshots/empty.png)
 
 ## Example
