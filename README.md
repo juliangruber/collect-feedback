@@ -20,7 +20,9 @@ Open `http://localhost:3000/` in your browser to submit feedback, each entry wil
 
 The server makes no assumption about what you're going to do with the data, it's up to you to make sense of it.
 
-You could for example pipe everything to a file, for later reference, while printing bad lines straigt away, for instantaneous notifications:
+## Tip: Use unix tools
+
+You can for example pipe everything to a file, for later reference. But you also want to be notified about important feedback on the spot, so it would be helpful to see that on the screen:
 
 ```bash
 $ collect-feedback | tee >(grep bor) >> feedback.txt
