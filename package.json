@@ -5,7 +5,7 @@
   "repository": "juliangruber/collect-feedback",
   "license": "MIT",
   "dependencies": {
-    "concat-stream": "~1.4.6"
+    "concat-stream": "~1.5.2"
   },
   "bin": {
     "collect-feedback": "bin/server.js"
